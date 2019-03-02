@@ -103,7 +103,9 @@
 ## 数据结构、算法相关（easy 难度）
 
 对于前端来说考到 easy 难度差不多了（我自己也是个弱鸡~）
+
 数据结构比如树、链表相关的在前端应用界是常用的，建议考察
+
 图论、动归、线段树、蓄水池抽样等这种根据自己的业务领域来决定是否有必要考察（=. =，web 前端我感觉不需要）
 
 * 大 O 表示法，怎么计算时间复杂度和空间复杂度
@@ -121,8 +123,40 @@
 * 烧绳子
 * 推理题
 
+## 应用框架原理
 
+考察是不是只会用，只是技术栈的罗列，而不清楚内部的原理机制，更没有借鉴落地的场景，这块也是重点考察
 
+* react、angular、vue 实现原理（三个选一个候选人最擅长的，针对某个流程详细考察，比如 dom diff、dom patch、脏检查、双向绑定、依赖收集等）
+* setState 相关问题，dirty component 是啥
+* forceUpdate() 用过吗？是什么干嘛用的？与 setState 有啥区别？
+* props 和 state
+* 组件设计相关（怎么设计？受控和非受控是什么？）
+* children.map 是什么，和普通的 map 有什么区别？使用场景
+* cloneElement 干嘛用的，使用场景，和 createElement 区别
+* 生命周期相关
+* react 16 新特性，react 17 前瞻，fiber，hooks，suspense，异步渲染等
+* redux、mobx、vuex、dva 等状态管理框架实现原理，针对几个点详细考察
+* redux 或 mobx 怎么处理 side effect？
+* redux 中间件模型，thunk 怎么实现？saga 怎么实现的？
+* koa、express 用过吗？中间件模型了解吗？有啥区别？
+* router 用过吗？核心流程怎么实现的？
+* 用过什么 xhr 封装库？（axios、fetch，各家长短？有啥坑吗？）
+* babel 原理（有哪些东西，分别干嘛用的，怎么实现的，runtime，polyfill，register）
+* webpack 核心流程原理，怎么实现模块化的，treeshaking 怎么做的？
+
+## 其他
+
+随便问点一些业务上的思考，技术加分项，或技术视野、分享、选型方面的考虑
+
+* 使用 typescript 吗？如何看待的，什么情况下用，类型声明文件怎么写的
+* 单元测试（jest、mocha、ava）
+* 如何发布一个二方或三方包，有哪些考量
+* 技术选型的考量指标、维度
+* mongo、es、redis 方面相关知识
+* 工程化、ci、docker、k8s 相关知识
+
+> 大概就这些，持续更新......
 
 
 
